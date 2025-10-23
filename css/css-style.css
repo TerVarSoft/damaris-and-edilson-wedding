@@ -106,7 +106,7 @@ p {
 
 h1 {
   color: #304058;
-  font-family: "Depan", Arial, sans-serif;
+  font-family: "Serif", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -1001,7 +1001,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Depan", Arial, serif;
+  font-family: "Serif", Arial, serif;
 }
 
 @media screen and (max-width: 768px) {
