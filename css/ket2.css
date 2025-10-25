@@ -4,7 +4,7 @@
 
 #fh5co-header {
 	/* The image used */
-	background-image: url('https://images.unsplash.com/photo-1705505460481-cf4e7cf52cf8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169');
+	background-image: url('../img/hero-background.jpg');
 	height: 100vh;
 	/* Center and scale the image nicely */
 	/* background-attachment: fixed; */
