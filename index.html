@@ -68,7 +68,7 @@
 	<div id="loader" class="fh5co-loader"></div>
 	<!-- SPLASHSCREEN -->
 	<div id="splashscreen">
-		<div class="splashscreen-bg"></div>
+		<div class="splashscreen-bg" style="background-position-x: center; background-position-y: top;"></div>
 		<div class="tengah">
 			<h2 style="color: white; font-size: 30px; margin-bottom: 20px;">¡Nos casamos!</h2>
 			<br>
@@ -93,7 +93,7 @@
 		<div id="fh5co-offcanvas"></div>
 		<header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5"
 			style="background-position: -25px -25px;">
-			<div id="fh5co-header">
+			<div id="fh5co-header" style="background-position-x: center; background-position-y: top;">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
@@ -236,7 +236,7 @@
 												Salon de Eventos <br>
 												 La Vendimia</label>
 											<br>
-											Calle Beni y Av. Pando, Tiquipaya, Bolivia
+											Av. El Reducto, 1.3 km al norte, Tiquipaya, Bolivia
 										</p>
 									</div>
 								</div>
@@ -275,7 +275,7 @@
 									<div class="timeline-body">
 										<p>
 											La ceremonia de nuestra boda será un momento muy especial.
-Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor y compromiso. </p>
+Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor. </p>
 										<div style="margin-bottom:50px; width: 100%; max-width: 100%; overflow: hidden;" id="maps">
 											<iframe frameborder="0" style="border:0; width: 100%; height: 300px; max-width: 100%;"
 												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.704466746231!2d-66.1547363904018!3d-17.377948163867156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3741aeab460b5%3A0x335b0c40ea737764!2sParroquia%20La%20Recoleta!5e0!3m2!1spt-BR!2sbo!4v1761177297956!5m2!1spt-BR!2sbo">
@@ -326,15 +326,33 @@ Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor y co
 										</span>
 									</div>
 									<div class="timeline-body">
-										<p>
-											Daremos inicio a la fiesta con nuestro baile, un momento muy especial.
-											Los invitamos a disfrutar con nosotros de la música y la danza. </p>
+										<p>Daremos inicio a la fiesta con nuestro baile, un momento muy especial.</p>
 									</div>
 								</div>
 							</li>
 							<!--TUTUP PHP -->
 							<!-- GET DATA -->
 							<li class="animate-box fadeInUp animated-fast">
+								<div class="timeline-badge"
+									style="background-color:#d7d6c5; background-image:url(img/couple-1.png);">
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Brindis</h3>
+										<i class="fas fa-glass-cheers"></i>
+										<span class="date">13 Diciembre 2025
+											<br>
+											17:30 PM
+										</span>
+									</div>
+									<div class="timeline-body">
+										<p>Un brindis por nuestro amor eterno y por todos los que nos acompañan en este día tan especial.</p>
+									</div>
+								</div>
+							</li>
+							<!-- ELSE -->
+							<!-- ELSE -->
+							<li class="timeline-inverted animate-box fadeInUp animated-fast">
 								<div class="timeline-badge"
 									style="background-color:#d7d6c5; background-image:url(img/couple-1.png);">
 								</div>
@@ -350,13 +368,12 @@ Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor y co
 									<div class="timeline-body">
 										<p>
 											Sera nuestra primera cena juntos como esposos.
-											Que mejor manera que compartirla con todos nuestros seres queridos.</p>
+											Que mejor manera que compartirla con todos nuestros seres queridos.
+										</p>
 									</div>
 								</div>
 							</li>
-							<!-- ELSE -->
-							<!-- ELSE -->
-							<li class="timeline-inverted animate-box fadeInUp animated-fast">
+							<li class="animate-box fadeInUp animated-fast">
 								<div class="timeline-badge"
 									style="background-color:#d7d6c5; background-image:url(img/couple-1.png);">
 								</div>
@@ -370,9 +387,7 @@ Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor y co
 										</span>
 									</div>
 									<div class="timeline-body">
-										<p>
-											Y para empezar fiesta cortaremos la torta de boda!!!
-										</p>
+										<p>Y continuando con la fiesta cortaremos la torta!!!</p>
 									</div>
 								</div>
 							</li>
@@ -382,58 +397,65 @@ Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor y co
 			</div>
 		</div>
 
-
-		<!-- ============== NUESTRA HISTORIA =============== -->
-		<div id="fh5co-couple-story">
+		<div id="fh5co-gallery" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-						<h1 style="color:#4a8b7f;">Nuestra Historia</h1>
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast" style="margin-bottom: 0%;">
+						<h1 style="color:#4a8b7f;">Momentos especiales</h1>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0">
-						<ul class="timeline animate-box fadeInUp animated-fast">
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<ul id="fh5co-gallery-list">
+							<li class="one-third animate-box fadeIn animated-fast" data-animate-effect="fadeIn"
+								style="background-image: url(img/album8.png);">
+								<a href="img/album8.png" data-lightbox="roadtrip">
+									<div class="case-studies-summary"> <span></span>
+										<h2></h2>
+									</div>
+								</a>
+							</li>
+							<!-- CLOSE DATA -->
 							<!-- GET DATA -->
-							<!-- ELSE -->
-							<li class="timeline-inverted animate-box fadeInUp animated-fast">
-								<div class="timeline-badge"
-									style="background-color:#4a8b7f; background-image:url(img/couple-1.png);">
-								</div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Primera vez que nos conocimos</h3>
-										<img src="img/9.png" alt="img" class="timeline-img">
-										<span class="date">13 Diciembre 2025</span>
+							<li class="one-third animate-box fadeIn animated-fast" data-animate-effect="fadeIn"
+								style="background-image: url(img/album3.png); background-position-y: top;">
+								<a href="img/album3.png" data-lightbox="roadtrip">
+									<div class="case-studies-summary"> <span></span>
+										<h2></h2>
 									</div>
-									<div class="timeline-body">
-										<p>
-											Cuando nos conocimos, nos sentimos atraídos el uno al otro.
-											Desde ese momento, nuestro amor creció cada día más.
-											Ahora estamos juntos y esperamos que nuestras vidas sean juntas para siempre. </p>
-									</div>
-								</div>
+								</a>
 							</li>
-							<!-- ELSE -->
-							<!-- ELSE -->
-							<li class="timeline-inverted animate-box fadeInUp animated-fast">
-								<div class="timeline-badge"
-									style="background-color:#4a8b7f; background-image:url(img/couple-1.png);">
+							<!-- CLOSE DATA -->
+							<!-- GET DATA -->
+							<li class="one-third animate-box fadeIn animated-fast" data-animate-effect="fadeIn"
+							style="background-image: url(img/album1.png);">
+							<a href="img/album1.png" data-lightbox="roadtrip">
+								<div class="case-studies-summary"> <span></span>
+									<h2></h2>
 								</div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Compromiso</h3>
-										<img src="img/9.png" alt="img" class="timeline-img"><span class="date">X
-											XXXXX 2024</span>
+							</a>
+						</li>
+						<!-- CLOSE DATA -->
+						<!-- GET DATA -->
+							<li class="one-third animate-box fadeIn animated-fast" data-animate-effect="fadeIn"
+								style="background-image: url(img/album2.png);">
+								<a href="img/album2.png" data-lightbox="roadtrip">
+									<div class="case-studies-summary"> <span></span>
+										<h2></h2>
 									</div>
-									<div class="timeline-body">
-										<p>
-											Cuando decidimos ser novios, nos sentimos atraídos el uno al otro.
-											Desde ese momento, nuestro amor creció cada día más.
-											Ahora estamos juntos y esperamos que nuestras vidas sean juntas para siempre. </p>
-									</div>
-								</div>
+								</a>
 							</li>
+							<!-- CLOSE DATA -->
+							<!-- GET DATA -->
+							<li class="one-third animate-box fadeIn animated-fast" data-animate-effect="fadeIn"
+								style="background-image: url(img/album9.png);">
+								<a href="img/album9.png" data-lightbox="roadtrip">
+									<div class="case-studies-summary"> <span></span>
+										<h2></h2>
+									</div>
+								</a>
+							</li>
+							<!-- CLOSE DATA -->
 						</ul>
 					</div>
 				</div>
@@ -447,7 +469,7 @@ Los esperamos en la parroquia La Recoleta para celebrar juntos nuestro amor y co
 					<div class="col-md-8 col-md-offset-2">
 						<div class="final-message-content">
 							<h2 style="color: white; font-size: 48px; margin-bottom: 10px; font-family: 'Serif', Arial, serif;">
-								¡Los esperamos! 💕
+								¡Los esperamos!
 							</h2>
 							<p style="color: rgba(255,255,255,0.8); font-size: 18px; font-style: italic;">
 								Con amor,<br>
